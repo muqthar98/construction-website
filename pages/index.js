@@ -11,12 +11,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className={`h-16 fixed top-0 bg-white w-full z-50`}>
-        <nav className="bg-white shadow dark:bg-gray-800 flex flex-col md:flex-row items-center justify-around">
-          <h1 className="text-black dark:text-white text-2xl">Brand</h1>
-          <div className=" flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
+      <header className={`fixed bg-white w-full z-50`}>
+        <nav className="bg-white shadow dark:bg-gray-800 flex flex-col md:flex-row items-center justify-center">
+          <a href="#home">
+            <h1 className="text-black dark:text-white text-2xl flex-grow-0 font-bold">
+              Brand
+            </h1>
+          </a>
+          <div className=" flex items-center justify-center p-6 text-gray-600 capitalize dark:text-gray-300">
             <a
-              href="#hero"
+              href="#home"
               className="text-gray-800 transition-colors duration-200 transform dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6"
             >
               home
@@ -46,8 +50,8 @@ export default function Home() {
         </nav>
       </header>
 
-      <main className={`mt-16`}>
-        <section id="hero" className={`h-[calc(100vh-4rem)] bg-blue-50`}>
+      <main className={``}>
+        <section id="home" className={`h-screen bg-blue-50`}>
           <div className="w-full bg-center bg-cover h-full bg-[url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)]">
             <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50">
               <div className="text-center">
@@ -65,7 +69,7 @@ export default function Home() {
 
         <section
           id="about"
-          className="bg-white h-[calc(100vh-4rem)] dark:bg-gray-800 grid place-items-center"
+          className="bg-white h-screen dark:bg-gray-800 grid place-items-center"
         >
           <div className="container px-6 py-8 mx-auto">
             <div className="items-center lg:flex">
@@ -148,7 +152,7 @@ export default function Home() {
 
         <section
           id="projects"
-          className={`h-[calc(100vh-4rem)] bg-white dark:bg-gray-900`}
+          className={`h-screen grid place-items-center bg-white dark:bg-gray-900`}
         >
           <div className="container px-6 py-10 mx-auto">
             <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
@@ -419,7 +423,7 @@ export default function Home() {
 
         <section
           id="contact"
-          className={`h-[calc(100vh-4rem)] bg-white dark:bg-gray-800 grid place-items-center`}
+          className={`h-screen bg-white dark:bg-gray-800 grid place-items-center`}
         >
           <div className="w-full max-w-2xl px-6 py-4 mx-auto bg-white rounded-md shadow-lg dark:bg-gray-800">
             <h2 className="text-3xl font-semibold text-center text-gray-800 dark:text-white">
