@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./About";
+import Residential from "./residential";
 import Contact from "./contact";
 import Hero from "./hero";
 import Projects from "./projects";
@@ -12,6 +13,8 @@ function Main() {
       <About />
 
       <Projects />
+
+      <Residential/>
 
       <Contact />
     </main>
