@@ -11,7 +11,7 @@ const Contact = () => {
           Get in touch
         </h2>
         <p className="mt-3 text-center text-gray-600 dark:text-gray-400">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Global Icon Plot No -131/73 , Ground Floor , New Vellala Street, Kodambakkam,Chennai-600024. 
         </p>
 
         <div className="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3">
@@ -32,7 +32,7 @@ const Contact = () => {
               />
             </svg>
 
-            <span className="mt-2">121 Street, NY</span>
+            <span className="mt-2">Kodambakkam,Chennai</span>
           </a>
 
           <a
@@ -48,7 +48,7 @@ const Contact = () => {
               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
             </svg>
 
-            <span className="mt-2">+2499999666600</span>
+            <span className="mt-2">9888867555</span>
           </a>
 
           <a
@@ -65,7 +65,7 @@ const Contact = () => {
               <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
             </svg>
 
-            <span className="mt-2">example@example.com</span>
+            <span className="mt-2">globalsanitary@gmail.com</span>
           </a>
         </div>
 

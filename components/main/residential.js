@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import image4 from "../../public/image4.jpeg";
-import image5 from "../../public/image5.jpeg";
+import image4 from "../../public/assets/image4.jpeg";
+import image5 from "../../public/assets/image5.jpeg";
 
 function Residential() {
   return (
