@@ -5,7 +5,7 @@ import Image from "next/image";
 function aboutUs() {
   return (
     <>
-      <div className="h-screen place-items-center container grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+      <div className="min-h-screen place-items-center container grid md:grid-cols-2 grid-cols-1 pt-32 md:pt-0 gap-0">
         <div>
           <Image src={image4} alt="" width={300} height={300}/>
         </div>
