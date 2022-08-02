@@ -10,7 +10,7 @@ function Header() {
             Brand
           </h1>
         </Link>
-        <div className=" flex items-center justify-center p-6 text-gray-600 capitalize dark:text-gray-300">
+        <div className=" flex items-center justify-evenly gap-6 p-6 text-gray-600 capitalize dark:text-gray-300">
           <Link
             href="/"
             className="text-gray-800 transition-colors duration-200 transform dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6"
