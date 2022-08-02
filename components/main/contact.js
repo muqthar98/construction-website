@@ -4,9 +4,9 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className={`md:h-screen bg-white dark:bg-gray-800 grid place-items-center`}
+      className={`md:h-screen bg-white dark:bg-gray-800 grid place-items-center px-8 py-28`}
     >
-      <div className="w-full max-w-2xl px-6 py-4 mx-auto bg-white rounded-md shadow-lg dark:bg-gray-800">
+      <div className="w-full max-w-2xl px-6 py-6 mx-auto bg-white rounded-md shadow-lg dark:bg-gray-800">
         <h2 className="text-3xl font-semibold text-center text-gray-800 dark:text-white">
           Get in touch
         </h2>
@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3">
           <a
             href="#"
-            className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500"
+            className="flex flex-col items-center px-6 py-8 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500"
           >
             <svg
               className="w-5 h-5"
@@ -37,7 +37,7 @@ const Contact = () => {
 
           <a
             href="#"
-            className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500"
+            className="flex flex-col items-center px-6 py-8 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500"
           >
             <svg
               className="w-5 h-5"

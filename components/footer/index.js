@@ -5,8 +5,7 @@ function Footer() {
     <footer className="flex justify-center px-4 text-gray-800 bg-white dark:text-white dark:bg-gray-800">
         <div className="container py-6">
           <h1 className="text-lg font-bold text-center lg:text-2xl">
-            Join 31,000+ other and never miss <br /> out on new tips, tutorials,
-            and more.
+            Never miss <br /> out any exclusive offers
           </h1>
 
           <div className="flex justify-center mt-6">
@@ -43,19 +42,19 @@ function Footer() {
                   href="#"
                   className="px-4 text-sm font-medium text-gray-800 dark:text-gray-200 hover:text-gray-700 dark:hover:text-gray-400 hover:underline"
                 >
+                  Home
+                </a>
+                <a
+                  href="#"
+                  className="px-4 text-sm font-medium text-gray-800 dark:text-gray-200 hover:text-gray-700 dark:hover:text-gray-400 hover:underline"
+                >
                   About
                 </a>
                 <a
                   href="#"
                   className="px-4 text-sm font-medium text-gray-800 dark:text-gray-200 hover:text-gray-700 dark:hover:text-gray-400 hover:underline"
                 >
-                  Blog
-                </a>
-                <a
-                  href="#"
-                  className="px-4 text-sm font-medium text-gray-800 dark:text-gray-200 hover:text-gray-700 dark:hover:text-gray-400 hover:underline"
-                >
-                  News
+                  Projects
                 </a>
                 <a
                   href="#"
