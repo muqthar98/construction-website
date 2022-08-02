@@ -1,7 +1,6 @@
 import Head from "next/head";
-import Main from "../components/Main/index";
-import Header from "../components/Header/index";
-import Footer from "../components/Footer/index";
+import Main from "../components/main/index";
+
 
 export default function Home() {
   return (
