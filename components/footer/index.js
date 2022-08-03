@@ -4,11 +4,11 @@ function Footer() {
   return (
     <footer className="flex justify-center px-4 text-gray-800 bg-white dark:text-white dark:bg-gray-800">
         <div className="container py-6">
-          <h1 className="text-lg font-bold text-center lg:text-2xl">
+          {/* <h1 className="text-lg font-bold text-center lg:text-2xl">
             Never miss <br /> out any exclusive offers
-          </h1>
+          </h1> */}
 
-          <div className="flex justify-center mt-6">
+          {/* <div className="flex justify-center mt-6">
             <div className="bg-white border rounded-md focus-within:ring dark:bg-gray-800 dark:border-gray-600 focus-within:border-blue-400 focus-within:ring-blue-300 focus-within:ring-opacity-40 dark:focus-within:border-blue-300">
               <div className="flex flex-wrap justify-between md:flex-row">
                 <input
@@ -22,7 +22,7 @@ function Footer() {
                 </button>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <hr className="h-px mt-6 border-gray-300 border-none dark:bg-gray-700" />
 
