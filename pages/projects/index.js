@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import image4 from "../../public/assets/image4.jpeg"
-import Image from 'next/image'
+import image4 from "../../public/assets/image4.jpeg";
+import Image from "next/image";
 
 const Card = (props) => {
   return (
-    <div className="max-w-sm overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    <div className="min-w-[14rem] h-max overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
       <Image
         className="object-cover object-center w-full h-56"
         src={props.img}
-        layout = "responsive"
+        layout="responsive"
         alt="avatar"
       />
 
@@ -17,9 +17,7 @@ const Card = (props) => {
           {props.title}
         </h1>
 
-        <p className="py-2 text-gray-700 dark:text-gray-400">
-          {props.heading}
-        </p>
+        <p className="py-2 text-gray-700 dark:text-gray-400">{props.heading}</p>
 
         <div className="flex items-center mt-4 text-gray-700 dark:text-gray-200">
           <svg
@@ -42,7 +40,6 @@ const Card = (props) => {
 
           <h1 className="px-2 text-sm">{props.location}</h1>
         </div>
-        
       </div>
     </div>
   );
@@ -64,36 +61,96 @@ const Projects = () => {
       case 0:
         return (
           <>
-            <Card img={image4} title="Ongoing" heading="Global Elite- Redhills" location="Redhilla"/>
-            <Card img={image4} title="Ongoing" heading="Global New Town – Manali" location="Manali"/>
-            <Card img={image4} title="Ongoing" heading="Global Compess- Kodambakkam " location="Kodambakkam"/>
+            <Card
+              img={image4}
+              title="Global Elite"
+              heading="Ongoing"
+              location="Redhills"
+            />
+            <Card
+              img={image4}
+              title="Global New Town"
+              heading="Ongoing"
+              location="Manali"
+            />
+            <Card
+              img={image4}
+              title="Global Compess"
+              heading="Ongoing"
+              location="Kodambakkam"
+            />
           </>
         );
         break;
       case 1:
         return (
-          <>           
-          <Card img={image4} title="Upcoming" heading="Global Dezire –Pallavaram" location="Pallavaram"/>
-          <Card img={image4} title="Upcoming" heading="Global Venture- Kolapakkam " location="Kolapakkam"/>
+          <>
+            <Card
+              img={image4}
+              title="Global Dezire"
+              heading="Upcoming"
+              location="Pallavaram"
+            />
+            <Card
+              img={image4}
+              title="Global Venture"
+              heading="Upcoming"
+              location="Kolapakkam"
+            />
           </>
         );
         break;
       case 2:
         return (
           <>
-            <Card img={image4} title="Residential" location="Kodambakkam" heading="Global Icon- Global Kodambakkam"/>
-            <Card img={image4} title="Residential" location="Adambakkam " heading="Global square- Global Adambakkam"/>
-            <Card img={image4} title="Residential" location="Kodambakkam" heading=" Global Cube – Global Palavanthangal"/>
-            <Card img={image4} title="Residential" location="Kodambakkam" heading=" Global Peace- Global Tambaram"/>
-            <Card img={image4} title="Residential" location="Kodambakkam" heading="Global Enrich-Chittiyaragaram Porur"/>
-            <Card img={image4} title="Residential" location="Kodambakkam" heading="Global Fantasy- Global Porur "/>
+            <Card
+              img={image4}
+              title="Global Icon"
+              location="Residential"
+              heading="Kodambakkam"
+            />
+            <Card
+              img={image4}
+              title="Global square"
+              location="Adambakkam "
+              heading="Residential"
+            />
+            <Card
+              img={image4}
+              title="Global Cube"
+              location="Kodambakkam"
+              heading="Residential"
+            />
+            <Card
+              img={image4}
+              title="Global Peace"
+              location="Kodambakkam"
+              heading="Residential"
+            />
+            <Card
+              img={image4}
+              title="Global Enrich"
+              location="Kodambakkam"
+              heading="Residential"
+            />
+            <Card
+              img={image4}
+              title="Global Fantasy"
+              location="Kodambakkam"
+              heading="Residential"
+            />
           </>
         );
         break;
       case 3:
         return (
           <>
-            <Card img={image4} title="Commercial" heading="Global Bazzar – Global T.Nagar" location="T-Nagar"/>
+            <Card
+              img={image4}
+              title="Global Bazzar"
+              heading="Commercial"
+              location="T-Nagar"
+            />
           </>
         );
         break;
@@ -107,7 +164,7 @@ const Projects = () => {
       <h1 className="text-lg font-bold text-center lg:text-2xl dark:text-white">
         PROJECTS
       </h1>
-      <div className="flex border-b border-gray-200 dark:border-gray-700 ">
+      <div className="flex flex-wrap gap-2 justify-center border-b border-gray-200 dark:border-gray-700 ">
         <button
           className={activeTab === 0 ? activeStyle : normalStyle}
           onClick={() => {
