@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import image4 from "../../public/assets/image4.jpeg";
+import image25 from "../../public/assets/image25.jpeg";
+import image26 from "../../public/assets/image26.jpeg";
+import image27 from "../../public/assets/image27.jpeg";
+import image28 from "../../public/assets/image28.jpeg";
+import image29 from "../../public/assets/image29.jpeg";
 import Image from "next/image";
 
 const Card = (props) => {
@@ -10,6 +15,7 @@ const Card = (props) => {
         src={props.img}
         layout="responsive"
         alt="avatar"
+        height={props.height}
       />
 
       <div className="px-6 py-4">
@@ -62,7 +68,7 @@ const Projects = () => {
         return (
           <>
             <Card
-              img={image4}
+              img={image28}
               title="Global Elite"
               heading="Ongoing"
               location="Redhills"
@@ -73,11 +79,18 @@ const Projects = () => {
               heading="Ongoing"
               location="Manali"
             />
+             <Card
+              img={image27}
+              title="Global Dezire"
+              heading="Ongoing"
+              location="Pallavaram"
+            />
             <Card
-              img={image4}
+              img={image25}
               title="Global Compess"
               heading="Ongoing"
               location="Kodambakkam"
+              height={930}
             />
           </>
         );
@@ -86,16 +99,17 @@ const Projects = () => {
         return (
           <>
             <Card
-              img={image4}
-              title="Global Dezire"
+              img={image26}
+              title="Global corner"
               heading="Upcoming"
-              location="Pallavaram"
+              location="Noombal "
             />
             <Card
-              img={image4}
+              img={image29}
               title="Global Venture"
               heading="Upcoming"
               location="Kolapakkam"
+              height={800}
             />
           </>
         );
