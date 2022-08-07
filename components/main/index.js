@@ -9,6 +9,8 @@ function Main() {
     <main className={``}>
       <Hero />
 
+      <Projects/>
+
       <About />
 
       <Contact />
