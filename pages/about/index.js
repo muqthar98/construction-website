@@ -11,7 +11,7 @@ function aboutUs() {
         <div>
           <Image src={image4} alt="" width={300} height={300} />
         </div>
-        <div className="p-5">
+        <div className="p-5 text-xl text-justify">
           <p>
             We Global Sanitary Consultancy was established on 14/01/2008 by
             Mr.Prabhu Jayapal and we are engaged in the business of
@@ -24,17 +24,31 @@ function aboutUs() {
             procurement followed by structural design to meet the quality
             guidelines set forth by the prevailing norms and codes of the
             country.
+            
           </p>
         </div>
-        {/* <div className="p-5">
+        <div className="p-5 text-xl mt-10 text-justify">
           <p>
-          We ensure that all our projects meet the necessary guidelines for the structural 
-          stability of the building and are subjected to many quality tests, starting from 
-          selection of the site, architects, consultants, vendors, material procurement 
-          followed by structural design to meet the quality guidelines set forth by the 
-          prevailing norms and codes of the country.
+            Global is the only developer in India that promises 10 years maintenance for all 
+            its on going projects. Our promise of 10 years maintenance aims to provide you 
+            with comfort and peace of mind knowing that your home is being taken care of 
+            professionals solely dedicated to maintenance solutions as a core competence. 
+            Our maintenance professionals would conduct a periodical check on the building 
+            and its amenities to make sure your home remains safe and sound. Rest assured 
+            that when you buy a home with us, you are also buying stress-free safe life.
+            In real estate development, location is an important criteria where we go an extra 
+            mile in choosing a right site which will fulfil the requisites for development of a 
+            green project.Once the soil investigation report is given by the soil testing agencies, the 
+            structural consultant will study the soil bearing capacity to decide on the design 
+            of the structure. Pre-qualification analysis is done for the structural consultants 
+            before appointing them.We ensure a comprehensive selection process of contractor for execution. The 
+            selection process involves various criteria and credentials that is taken into 
+            account.We prepare a project specific quality control plan and follow to assure the 
+            quality of work executed by the contractor. This will be done through a project 
+            management consultancy (pmc) appointed by us or directly by global.We ensure the
+            following documents are given to the customers / association at the time of handing over the project.
           </p>
-        </div> */}
+        </div>
       </div>
       <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 mt-10">

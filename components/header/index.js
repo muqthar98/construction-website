@@ -7,7 +7,7 @@ function Header() {
       <nav className="bg-white shadow dark:bg-gray-800 flex flex-col md:flex-row items-center justify-center">
         <Link href={"/"}>
           <h1 className="text-black dark:text-white text-2xl flex-grow-0 font-bold">
-            Brand
+            Global Developers
           </h1>
         </Link>
         <div className=" flex items-center justify-evenly gap-6 p-6 text-gray-600 capitalize dark:text-gray-300">

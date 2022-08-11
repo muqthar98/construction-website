@@ -5,6 +5,7 @@ import image26 from "../../public/assets/image26.jpeg";
 import image27 from "../../public/assets/image27.jpeg";
 import image28 from "../../public/assets/image28.jpeg";
 import image29 from "../../public/assets/image29.jpeg";
+import image31 from "../../public/assets/image31.jpg";
 import Image from "next/image";
 
 const Card = (props) => {
@@ -79,12 +80,6 @@ const Projects = () => {
               heading="Ongoing"
               location="Manali"
             />
-             <Card
-              img={image27}
-              title="Global Dezire"
-              heading="Ongoing"
-              location="Pallavaram"
-            />
             <Card
               img={image25}
               title="Global Compess"
@@ -103,6 +98,12 @@ const Projects = () => {
               title="Global corner"
               heading="Upcoming"
               location="Noombal "
+            />
+            <Card
+              img={image27}
+              title="Global Dezire"
+              heading="Ongoing"
+              location="Pallavaram"
             />
             <Card
               img={image29}
@@ -160,7 +161,7 @@ const Projects = () => {
         return (
           <>
             <Card
-              img={image4}
+              img={image31}
               title="Global Bazzar"
               heading="Commercial"
               location="T-Nagar"
