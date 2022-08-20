@@ -35,12 +35,9 @@ function Footer() {
               href="#"
               className="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
             >
-              <Image
-                src={logo}
-                height={"50rem"}
-                width={"120rem"}
-                alt={"Global Developers"}
-              />
+              <h1 className="text-black dark:text-white text-2xl flex-grow-0 font-bold">
+            Global Developers
+          </h1>
             </a>
           </div>
 
