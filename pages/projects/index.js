@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import image4 from "../../public/assets/image4.jpeg";
+import image5 from "../../public/assets/global-enrich.jpg";
+import image6 from "../../public/assets/global-cube.jpg";
 import image25 from "../../public/assets/image25.jpeg";
 import image26 from "../../public/assets/image26.jpeg";
 import image27 from "../../public/assets/image27.jpeg";
@@ -12,8 +14,9 @@ const Card = (props) => {
   return (
     <div className="min-w-[14rem] h-max overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
       <Image
-        className="object-cover object-center w-full h-56"
+        className="object-cover object-center w-full h-56 transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110"
         src={props.img}
+        width={props.width}
         layout="responsive"
         alt="avatar"
         height={props.height}
@@ -24,7 +27,8 @@ const Card = (props) => {
           {props.title}
         </h1>
 
-        <p className="py-2 text-gray-700 dark:text-gray-400">{props.heading}</p>
+        <p className="px-2 text-md text-left">{props.heading}</p>
+
 
         <div className="flex items-center mt-4 text-gray-700 dark:text-gray-200">
           <svg
@@ -131,7 +135,8 @@ const Projects = () => {
               heading="Residential"
             />
             <Card
-              img={image4}
+              img={image6}
+              height={900}
               title="Global Cube"
               location="Kodambakkam"
               heading="Residential"
@@ -143,7 +148,8 @@ const Projects = () => {
               heading="Residential"
             />
             <Card
-              img={image4}
+              img={image5}
+              height={900}
               title="Global Enrich"
               location="Kodambakkam"
               heading="Residential"
