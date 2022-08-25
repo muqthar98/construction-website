@@ -35,7 +35,7 @@ const About = () => {
               <div className="max-w-lg">
                 <img
                   className="object-cover object-center w-full max-h-64  rounded-md shadow"
-                  src="https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+                  src="https://cdn.pixabay.com/photo/2016/04/28/15/50/construction-site-1359136_1280.jpg"
                   alt=""
                 />
               </div>

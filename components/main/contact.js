@@ -49,6 +49,7 @@ const Contact = () => {
             </svg>
 
             <span className="mt-2">9888867555</span>
+            <span className="mt-2">044-23724855</span>
           </a>
 
           <a

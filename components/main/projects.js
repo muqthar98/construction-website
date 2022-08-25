@@ -3,8 +3,8 @@ import Link from "next/link"
 import Image from "next/image";
 import image4 from "../../public/assets/image4.jpeg"
 import image31 from "../../public/assets/image31.jpg"
-import image5 from "../../public/assets/global-cube.jpg";
-import image6 from "../../public/assets/global-enrich.jpg";
+import image5 from "../../public/assets/global-venture.jpeg";
+import image6 from "../../public/assets/global-corner.jpeg";
 
 
 const Card = (props) => {
@@ -45,9 +45,9 @@ const Projects = () => {
     </div>
 
     <div className="grid grid-cols-3 mx-auto">
-    <Card img={image31} height={1000} title={"Global Bazzar"} heading={"Commercial"} location={"T.Nagar"}/>
-    <Card img={image5} height={1250} title={"Global Cube"} heading={"Residential"} location={"Kodambakkam"}/>
-    <Card img={image6} height={1250} title={"Global Enrich"} heading={"Residential"} location={"Kodambakkam"}/>
+    <Card img={image5} height={1100} title={"Global Venture"} location={"Kolapakkam"}/>
+    <Card img={image31} height={1000} title={"Global Bazzar"} location={"T.Nagar"}/>
+    <Card img={image6} height={1350} title={"Global Corner"} location={"Noombal"}/>
     </div>  
 
     <div className='flex items-center justify-center'>
