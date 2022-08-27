@@ -49,7 +49,7 @@ const Contact = () => {
             </svg>
 
             <span className="mt-2">9888867555</span>
-            <span className="mt-2">044-23724855</span>
+            <span className="mt-2">044-2372 4755</span>
           </a>
 
           <a
@@ -67,6 +67,7 @@ const Contact = () => {
             </svg>
 
             <span className="mt-2">globalsanitary@gmail.com</span>
+            <span className="mt-2">globaldeveloppers@gmail.com</span>
           </a>
         </div>
 
